@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+img {
+    max-width: 100%;
+}
+
+body{
+    background-color: #A9CEF4;
+}
+
+h1{
+    font-family: "museo-sans"; 
+    color: #E4EDF4; 
+    text-align: center;
+    font-size: xx-large;
+}
