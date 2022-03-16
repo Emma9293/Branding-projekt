@@ -88,6 +88,7 @@ p{
     color: #E4EDF4; 
     width: 800px;
     text-align: center;
+    margin-bottom: 40px;
 }
 main{
     display: flex;
@@ -98,6 +99,9 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+#teamSky {
+    height: 150px;
 }
 li {
     display: inline;
