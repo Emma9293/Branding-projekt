@@ -50,6 +50,11 @@ h1{
     height: 100%;
     width: 100%;
 }
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color:#E4EDF4 ;
+}
 #storsky{
     height: 200px;
    position: relative;
@@ -94,9 +99,6 @@ h2{
   
 }
 #p1{
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    color: #E4EDF4; 
     width: 800px;
     text-align: center;
     margin-bottom: 40px;
@@ -115,9 +117,6 @@ main{
     height: 150px;
 }
 #p2 {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #E4EDF4;
     width: 800px;
     text-align: center;
     margin-right: 110px;
@@ -147,13 +146,28 @@ li a {
     width: 950px;
     margin-right: 190px;
 }
-.pakkeSection p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    color:#E4EDF4 ;
-}
 .pakkeDiv{
     display: flex;
     align-items: center;
     margin: 50px 0;
+}
+.omosSection{
+    width: 950px;
+    margin: 160px 0 80px 0;
+    text-align: center;
+}
+.omosSection p{
+    margin-top: 30px;
+}
+.kaffe{
+    background-color: #99c9fa;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 60px 0;
+}
+h3{
+    color: #E4EDF4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
 }
