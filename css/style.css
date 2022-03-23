@@ -15,10 +15,17 @@ header {
     width: 100%;
     background-color: #99c9fa;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     box-shadow: 20px 0px 19px 18px rgb(0 0 0 / 10%);
     margin-bottom: 40px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+header ul{
+    display: none;
 }
 .undersiderHeader {
     position: fixed;
@@ -50,13 +57,13 @@ h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     color: #0F121A; 
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     height: 100%;
     width: 100%;
 }
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 15px;
     color:#0F121A ;
 }
 #storsky{
@@ -96,14 +103,16 @@ p{
    margin-right: 220px;
 }
 h2{
-   font-size: 50px;
+   font-size: 25px;
+   width: 300px;
+   text-align: center;
    margin-bottom: 30px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     color: #0F121A; 
   
 }
 #p1{
-    width: 800px;
+    width: 350px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -118,16 +127,15 @@ main{
     flex-direction: column;
 }
 #teamSky {
-    height: 170px;
+    height: 100px;
 }
 #p2 {
-    width: 800px;
+    width: 350px;
     text-align: center;
-    margin-right: 110px;
     margin-bottom: 40px;
 }
 #vækstSky {
-    height: 200px;
+    height: 125px;
     margin-left: 120px;
     margin-bottom: 20px;
 }
@@ -142,21 +150,20 @@ li a {
     font-size: 30px;
 }
 .ikon{
-    height: 150px;
-    margin: 20px;
+    height: 50px;
+    margin: 40px 8px 0 0;
 }
 .pakkeSection{
     text-align: center;
-    width: 950px;
-    margin-right: 190px;
+    width: 300px;
+    margin-right: 20px;
 }
 .pakkeDiv{
     display: flex;
-    align-items: center;
     margin: 50px 0;
 }
 .omosSection{
-    width: 950px;
+    width: 320px;
     margin: 160px 0 80px 0;
     text-align: center;
 }
@@ -169,7 +176,7 @@ li a {
     text-align: center;
     padding: 30px;
     margin: 60px 0;
-    height: 180px;
+    height: 200px;
 }
 h3{
     color: #0F121A;
@@ -177,23 +184,26 @@ h3{
     font-size: 30px;
 }
 figure img{
-    height: 300px;
+    height: 100%;
+    max-width: 100%;
+    padding: 10px;
+    
 }
 figcaption{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #0F121A;
-    font-size: 30px;
+    font-size: 20px;
 }
 span{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #0F121A;
-    font-size: 20px;
+    font-size: 15px;
 }
 .team{
     display: flex;
     text-align: center;
-    width: 950px;
-    justify-content: space-evenly;
+    width: 300px;
+    flex-direction: column;
 }
 #voresTeam{
     text-align: center;
@@ -215,10 +225,16 @@ span{
 }
 .MEMOS {
     height: 210px;
+    margin-bottom: 20px;
 }
 .GW {
-    margin-left: 190px;
+    margin-left: 50px;
+    margin-bottom: 20px;
     height: 220px;
+}
+.Limelight {
+    margin-left: 15px;
+    height: 340px;
 }
 #figtekst1 {
 margin-bottom: 20px;
@@ -229,6 +245,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#figtekst3 {
+    margin-top: 20px;
+    margin-bottom: -60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
 form{
     display: flex;
     flex-direction: column;
@@ -237,7 +259,7 @@ form{
 label{
     margin: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 input{
     height: 25px;
@@ -261,13 +283,108 @@ input{
     margin-bottom: 40px;
 }
 .kontakt{
-    height: 60px;
-    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+    float: left;
+    margin: 5px 40px 0 0;
 }
 .kontaktOs{
     display: flex;
-    margin: 60px 0;
+    margin: 60px;
+    flex-direction: column;
+    width: 390px;
 }
 .kontaktOs section{
     margin: 15px;
+}
+#menu {
+    color: #0F121A;
+    margin-left: 150px;
+}
+@media screen and (min-width: 700px){
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 50px;
+        width: 100%;
+    }
+    p{
+        max-width: 100%;
+        font-size: 30px;
+    }
+    #p1{
+        width: 800px;
+    }
+    #p2 {
+        width: 800px;
+    }
+    #teamSky {
+        height: 170px;
+    }
+    #vækstSky {
+        height: 200px;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .team{
+        display: flex;
+        text-align: center;
+        width: 950px;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    figcaption{
+        font-size: 30px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .omosSection{
+        width: 950px;
+        margin: 160px 0 80px 0;
+    }
+    .kaffe{
+        height: 180px;
+    }
+    .GW {
+        margin-left: 190px;
+    }
+    .Limelight {
+        margin-left: 100px;
+    }
+    .pakkeSection{
+        width: 950px;
+        margin-right: 190px;
+    }
+    .ikon{
+        height: 150px;
+        margin: 20px;
+    }
+    .kontaktOs{
+        flex-direction: row;
+        width: 100%;
+    }
+    .kontakt{
+        height: 60px;
+        width: 60px;
+        float: left;
+        margin-bottom: 10px;
+    }
+    .kontaktOs section{
+        margin: 25px 15px;
+        width: 450px;
+    }
+    label{
+        font-size: 25px;
+    }
+    header ul{
+        display: block;
+    }
+    #menu {
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+    }
 }
