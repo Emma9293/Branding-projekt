@@ -15,3 +15,9 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+const navbarToggle = () => {
+  const nav = document.querySelector('.mainnav');
+  nav.classList.toggle('toggleShow');
+  }
+  document.querySelector('#menu').addEventListener('click', navbarToggle);
