@@ -111,6 +111,10 @@ h2{
     color: #0F121A; 
   
 }
+#video{
+    border: #0F121A solid 3px;
+    margin-bottom: 30px;
+}
 #p1{
     width: 350px;
     text-align: center;
@@ -311,7 +315,7 @@ input{
 .kontaktOs section{
     margin: 10px;
 }
-#menu {
+.fa-bars {
     color: #0F121A;
     margin-left: 150px;
 }
@@ -329,6 +333,9 @@ input{
 .toggleShow li,
 .toggleShow a{
     padding: 10px;
+}
+video{
+    height: 215px;
 }
 @media screen and (min-width: 700px){
     h1{
@@ -402,6 +409,9 @@ input{
     header ul{
         display: block;
     }
+    .fa-bars {
+        display: none;
+    }
     #menu {
         display: none;
     }
@@ -424,5 +434,9 @@ input{
         height: 200px;
         margin-right: 160px;
         margin-bottom: 20px;
+    }
+    video{
+        height: 500px;
+        margin-top: 40px;
     }
 }
